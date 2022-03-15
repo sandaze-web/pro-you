@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Page</title>
+
+        <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+
+  <body>
+    
+    <main class="main">
+        <section class="order">
+            <div class="order-wrapper">
+                <form action="#" class="order-content">
+                    <h1 class="order-content__title">Оформление заказа</h1>
+                    <p class="order-content__subtitle">Персональный план питания ждёт вас! Успейте приобрести пробный доступ к личному кабинету по привлекательной цене!</p>
+                    <div class="order-content-box">
+                        <div class="order-content-price">
+                            <p>29 ₽</p>
+                            <p>990 ₽</p>
+                        </div>
+                        <div class="order-content-end">
+                            До конца акции:
+                            <span id="end_action"><span id="order-minutes"></span>:<span id="order-seconds"></span></span>
+                        </div>
+                    </div>
+                    <div class="order-content-inputBx">
+                        <input required type="email" placeholder="Введите вашу почту">
+                        <img src="./images/order/mail.png" alt="">
+                    </div>
+                    <button type="submit" class="order-content__button">Перейти к оплате</button>
+                    <div class="order-content-inputBx order-content-privacy">
+                        <input type="checkbox" name="privacy_police" id="privacy">
+                        <label for="privacy">Согласен на обработку <a href="">персональных данных</a></label>
+                    </div>
+                </form>
+                <img src="./images/order/main.png" alt="Картинка оформления заказа" class="order__img">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="js/index.js"></script>
+
+    <!-- swiper js -->
+  </body>
+</html>

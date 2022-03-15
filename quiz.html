@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Page</title>
+
+        <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+
+  <body>
+    
+    <main class="main">
+        <header class="header">
+                <div class="container">
+                    <div class="header-wrapper">
+                        <a href="/" class="header-logo"><img src="./images/logo.png" alt="">pro you</a>
+                    </div>
+                </div>
+            </header>    <section class="quiz">
+            <div class="container">
+                <div class="quiz-helper">
+                    <form action="#" class="quiz-wrapper">
+                        <div class="quiz-question">
+                            <h1 class="quiz-question__title">Физическая активность <div class="quiz-question__title-bar mobile"><span>2</span>/<span>8</span></div></h1>
+                            <div class="quiz-question-error">Выберите варианты ответов</div>
+                            <div class="quiz-question-box">
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value1" name="value1">
+                                    <label for="value1">Сидячий образ жизни</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value2" name="value1">
+                                    <label for="value2">Иногда хожу пешком</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value3" name="value1">
+                                    <label for="value3">Тренируюсь 1–2 раза в неделю</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value4" name="value1">
+                                    <label for="value4">Тренируюсь 3–5 раз в неделю</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value5" name="value1">
+                                    <label for="value5">Тренируюсь каждый день</label>
+                                </div>
+                            </div>
+                            <div class="quiz-question-info" data-number="0">
+                                <button class="quiz-question__back" type="button"><i></i><a href="/">Назад</a></button>
+                                <div class="quiz-question-progressbar desktop">
+                                    <span class="quiz-question-progressbar__text"><span>2</span>/<span>8</span></span>
+                                    <svg class="quiz-question-progressbar__svg">
+                                        <circle class="quiz-question-progressbar__circle" cx="30" cy="30" r="25"></circle>
+                                    </svg>
+                                </div>
+                                <button id="click-next" class="quiz-question__next">Продолжить</button>
+                            </div>
+                        </div>
+                        <img class="quiz-question-img desktop" src="./images/quiz/1.png" alt="">
+                    </form>
+                    <form action="#" class="quiz-wrapper" id="right-quiz">
+                        <div class="quiz-question">
+                            <h1 class="quiz-question__title">Источники белков<div class="quiz-question__title-bar mobile"><span>3</span>/<span>8</span></div></h1>
+                            <p class="quiz-question__subtitle">Выберите продукты, которые вы хотели ли бы включить в план</p>
+                            <div class="quiz-question-error">Выберите варианты ответов</div>
+                            <div class="quiz-question-box quiz-question-grid">
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value6" name="value6">
+                                    <label for="value6">Курица</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value7" name="value7">
+                                    <label for="value7">Говядина</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value8" name="value8">
+                                    <label for="value8">Баранина</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value9" name="value9">
+                                    <label for="value9">Рыба</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value10" name="value10">
+                                    <label for="value10">Индейка</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value11" name="value11">
+                                    <label for="value11">Свинина</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value12" name="value12">
+                                    <label for="value12">Морепродукты</label>
+                                </div>
+                            </div>
+                            <div class="quiz-question-info" data-number="1">
+                                <button class="quiz-question__back" type="button"><i></i>Назад</button>
+                                <div class="quiz-question-progressbar desktop">
+                                    <span class="quiz-question-progressbar__text"><span>3</span>/<span>8</span></span>
+                                    <svg class="quiz-question-progressbar__svg">
+                                        <circle class="quiz-question-progressbar__circle" cx="30" cy="30" r="25"></circle>
+                                    </svg>
+                                </div>
+                                <button class="quiz-question__next">Продолжить</button>
+                            </div>
+                        </div>
+                        <img class="quiz-question-img desktop" src="./images/quiz/2.png" alt="">
+                    </form>
+                    <form action="#" class="quiz-wrapper">
+                        <div class="quiz-question">
+                            <h1 class="quiz-question__title">Овощи<div class="quiz-question__title-bar mobile"><span>4</span>/<span>8</span></div></h1>
+                            <p class="quiz-question__subtitle">Выберите продукты, которые вы хотели ли бы
+                                включить в план</p>
+                            <div class="quiz-question-error">Выберите варианты ответов</div>
+                            <div class="quiz-question-box quiz-question-grid">
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value13" name="value13">
+                                    <label for="value13">Брокколи</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value14" name="value14">
+                                    <label for="value14">Томат</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value15" name="value15">
+                                    <label for="value15">Спаржа</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value16" name="value16">
+                                    <label for="value16">Болгарский перец</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value5" name="value17">
+                                    <label for="value17">Огурцы</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value18" name="value18">
+                                    <label for="value18">Авокадо</label>
+                                </div>
+                            </div>
+                            <div class="quiz-question-info" data-number="2">
+                                <button class="quiz-question__back" type="button"><i></i>Назад</button>
+                                <div class="quiz-question-progressbar desktop">
+                                    <span class="quiz-question-progressbar__text"><span>4</span>/<span>8</span></span>
+                                    <svg class="quiz-question-progressbar__svg">
+                                        <circle class="quiz-question-progressbar__circle" cx="30" cy="30" r="25"></circle>
+                                    </svg>
+                                </div>
+                                <button class="quiz-question__next">Продолжить</button>
+                            </div>
+                        </div>
+                        <img class="quiz-question-img desktop" src="./images/quiz/3.png" alt="">
+                    </form>
+                    <form action="#" class="quiz-wrapper">
+                        <div class="quiz-question">
+                            <h1 class="quiz-question__title">Продукты<div class="quiz-question__title-bar mobile"><span>5</span>/<span>8</span></div></h1>
+                            <p class="quiz-question__subtitle">Выберите продукты, которые вы хотели ли бы
+                                включить в план</p>
+                            <div class="quiz-question-error">Выберите варианты ответов</div>
+                            <div class="quiz-question-box quiz-question-grid">
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value19" name="value19">
+                                    <label for="value19">Яйца</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value20" name="value20">
+                                    <label for="value20">Сыр</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value21" name="value21">
+                                    <label for="value21">Сливочное масло</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value22" name="value22">
+                                    <label for="value22">Орехи</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value23" name="value23">
+                                    <label for="value23">Творог</label>
+                                </div>
+                            </div>
+                            <div class="quiz-question-info" data-number="3">
+                                <button class="quiz-question__back" type="button"><i></i>Назад</button>
+                                <div class="quiz-question-progressbar desktop">
+                                    <span class="quiz-question-progressbar__text"><span>5</span>/<span>8</span></span>
+                                    <svg class="quiz-question-progressbar__svg">
+                                        <circle class="quiz-question-progressbar__circle" cx="30" cy="30" r="25"></circle>
+                                    </svg>
+                                </div>
+                                <button class="quiz-question__next">Продолжить</button>
+                            </div>
+                        </div>
+                        <img class="quiz-question-img desktop" src="./images/quiz/4.png" alt="">
+                    </form>
+                    <form action="#" class="quiz-wrapper">
+                        <div class="quiz-question">
+                            <h1 class="quiz-question__title">Ваш типичный день<div class="quiz-question__title-bar mobile"><span>6</span>/<span>8</span></div></h1>
+                            <div class="quiz-question-error">Выберите варианты ответов</div>
+                            <div class="quiz-question-box">
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value24" name="value24">
+                                    <label for="value24">Сижу в офисе</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value25" name="value24">
+                                    <label for="value25">Сижу в офисе, но регулярно выхожу</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value26" name="value24">
+                                    <label for="value26">Много передвигаюсь в течении дня</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value27" name="value24">
+                                    <label for="value27">Физическая работы</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value28" name="value24">
+                                    <label for="value28">Большую часть дня провожу дома</label>
+                                </div>
+                            </div>
+                            <div class="quiz-question-info" data-number="4">
+                                <button class="quiz-question__back" type="button"><i></i>Назад</button>
+                                <div class="quiz-question-progressbar desktop">
+                                    <span class="quiz-question-progressbar__text"><span>6</span>/<span>8</span></span>
+                                    <svg class="quiz-question-progressbar__svg">
+                                        <circle class="quiz-question-progressbar__circle" cx="30" cy="30" r="25"></circle>
+                                    </svg>
+                                </div>
+                                <button class="quiz-question__next">Продолжить</button>
+                            </div>
+                        </div>
+                        <img class="quiz-question-img desktop" src="./images/quiz/5.png" alt="">
+                    </form>
+                    <form action="#" class="quiz-wrapper">
+                        <div class="quiz-question">
+                            <h1 class="quiz-question__title">Вредные привычки<div class="quiz-question__title-bar mobile"><span>7</span>/<span>8</span></div></h1>
+                            <p class="quiz-question__subtitle">Выберите одну или несколько привычек, которые у вас есть</p>
+                            <div class="quiz-question-error">Выберите варианты ответов</div>
+                            <div class="quiz-question-box quiz-question-grid">
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value29" name="value25">
+                                    <label for="value29">Курение</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value30" name="value26">
+                                    <label for="value30">Алкоголь</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value31" name="value27">
+                                    <label for="value31">Употребляю много соли</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value32" name="value28">
+                                    <label for="value32">Ем много сладкого</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value33" name="value29">
+                                    <label for="value33">Мало сплю</label>
+                                </div>
+                                <div class="quiz-question-inputBx">
+                                    <input type="radio" id="value34" name="value30">
+                                    <label for="value34">Ничего из перечисленного</label>
+                                </div>
+                            </div>
+                            <div class="quiz-question-info" data-number="5">
+                                <button class="quiz-question__back" type="button"><i></i>Назад</button>
+                                <div class="quiz-question-progressbar desktop">
+                                    <span class="quiz-question-progressbar__text"><span>7</span>/<span>8</span></span>
+                                    <svg class="quiz-question-progressbar__svg">
+                                        <circle class="quiz-question-progressbar__circle" cx="30" cy="30" r="25"></circle>
+                                    </svg>
+                                </div>
+                                <button class="quiz-question__next">Продолжить</button>
+                            </div>
+                        </div>
+                        <img class="quiz-question-img desktop" src="./images/quiz/6.png" alt="">
+                    </form>
+                    <form action="#" class="quiz-wrapper quiz-finished-form">
+                        <div class="quiz-question">
+                            <h1 class="quiz-question__title">Параметры<div class="quiz-question__title-bar mobile"><span>8</span>/<span>8</span></div></h1>
+                            <p class="quiz-question__subtitle">Введите ваши параметры</p>
+                            <div class="quiz-question-error">Не все поля корректны</div>
+                            <div class="quiz-question-box quiz-question-grid">
+                                <div class="quiz-question-inputBx quiz-question-finish">
+                                    <input data-min="18" data-max="" placeholder=" " type="number" id="value35" name="value31">
+                                    <label for="value35">Ваш возраст</label>
+                                    <div class="quiz-question-error">Ваш возвраст должен быть от 18 лет</div>
+                                </div>
+                                <div class="quiz-question-inputBx quiz-question-finish">
+                                    <input data-min="122" data-max="300" placeholder=" " type="number" id="value36" name="value32">
+                                    <label for="value36">Ваш рост, см</label>
+                                    <div class="quiz-question-error">Ваш рост должен быть от 122см до 300см</div>
+                                </div>
+                                <div class="quiz-question-inputBx quiz-question-finish">
+                                    <input data-min="20" data-max="250" placeholder=" " type="number" id="value37" name="value33">
+                                    <label for="value37">Ваш вес, кг</label>
+                                    <div class="quiz-question-error">Ваш вес должен быть от 20кг до 250кг</div>
+                                </div>
+                                <div class="quiz-question-inputBx quiz-question-finish">
+                                    <input data-min="20" data-max="250" placeholder=" " type="number" id="value38" name="value34">
+                                    <label for="value38">Желаемый вес, кг</label>
+                                    <div class="quiz-question-error">Ваш вес должен быть от 20кг до 250кг</div>
+                                </div>
+                                <div class="quiz-question-inputBx quiz-question-finish">
+                                    <select name="timezone" id="timezone">
+                                        <option disabled selected>Выберите часовой пояс</option>
+                                        <option value="-1">GMT-01</option>
+                                        <option value="-2">GMT-02</option>
+                                        <option value="-3">GMT-03</option>
+                                        <option value="-4">GMT-04</option>
+                                        <option value="-5">GMT-05</option>
+                                        <option value="-6">GMT-06</option>
+                                        <option value="-7">GMT-07</option>
+                                        <option value="-8">GMT-08</option>
+                                        <option value="-9">GMT-09</option>
+                                        <option value="-10">GMT-10</option>
+                                        <option value="-11">GMT-11</option>
+                                        <option value="12">GMT+-12</option>
+                                        <option value="0">GMT+00</option>
+                                        <option value="1">GMT+01</option>
+                                        <option value="2">GMT+02</option>
+                                        <option value="3">GMT+03</option>
+                                        <option value="4">GMT+04</option>
+                                        <option value="5">GMT+05</option>
+                                        <option value="6">GMT+06</option>
+                                        <option value="7">GMT+07</option>
+                                        <option value="8">GMT+08</option>
+                                        <option value="9">GMT+09</option>
+                                        <option value="10">GMT+10</option>
+                                        <option value="11">GMT+11</option>
+                                    </select>
+                                    <div class="quiz-question-error">Ваш вес должен быть от 20кг до 250кг</div>
+                                </div>
+                            </div>
+                            <div class="quiz-question-info" data-number="6">
+                                <button class="quiz-question__back" type="button"><i></i>Назад</button>
+                                <div class="quiz-question-progressbar desktop">
+                                    <span class="quiz-question-progressbar__text"><span>8</span>/<span>8</span></span>
+                                    <svg class="quiz-question-progressbar__svg">
+                                        <circle class="quiz-question-progressbar__circle" cx="30" cy="30" r="25"></circle>
+                                    </svg>
+                                </div>
+                                <button class="quiz-question__next">Закончить</button>
+                            </div>
+                        </div>
+                        <img class="quiz-question-img desktop" src="./images/quiz/7.png" alt="">
+                    </form>
+                    <div action="#" class="quiz-wrapper quiz-loading">
+                        <div class="quiz-question quiz-loading-item">
+                            <div class="quiz-loading-imgBx">
+                                <img src="./images/quiz/loading.png" alt="">
+                            </div >
+                            <div class="quiz-loading-text">Создаем профиль питания...</div>
+                        </div>
+                        <img class="quiz-question-img" src="./images/quiz/mockup.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="steps-quiz">
+            <div class="container">
+                <div class="steps-quiz-box">
+                    <div class="steps-quiz-box__item">
+                        <div class="steps-quiz-box__item-img"><img src="./images/steps/1.png" alt=""></div>
+                        <p class="steps-quiz-box__item-title">01</p>
+                        <p class="steps-quiz-box__item-subtitle">Пол</p>
+                    </div>
+                    <div class="steps-quiz-box__item active">
+                        <div class="steps-quiz-box__item-img"><img src="./images/steps/2.png" alt=""></div>
+                        <p class="steps-quiz-box__item-title">02</p>
+                        <p class="steps-quiz-box__item-subtitle">Физическая активность</p>
+                    </div>
+                    <div class="steps-quiz-box__item">
+                        <div class="steps-quiz-box__item-img"><img src="./images/steps/3.png" alt=""></div>
+                        <p class="steps-quiz-box__item-title">03</p>
+                        <p class="steps-quiz-box__item-subtitle">Источники белков</p>
+                    </div>
+                    <div class="steps-quiz-box__item">
+                        <div class="steps-quiz-box__item-img"><img src="./images/steps/4.png" alt=""></div>
+                        <p class="steps-quiz-box__item-title">04</p>
+                        <p class="steps-quiz-box__item-subtitle">Овощи</p>
+                    </div>
+                    <div class="steps-quiz-box__item">
+                        <div class="steps-quiz-box__item-img"><img src="./images/steps/5.png" alt=""></div>
+                        <p class="steps-quiz-box__item-title">05</p>
+                        <p class="steps-quiz-box__item-subtitle">Продукты</p>
+                    </div>
+                    <div class="steps-quiz-box__item">
+                        <div class="steps-quiz-box__item-img"><img src="./images/steps/6.png" alt=""></div>
+                        <p class="steps-quiz-box__item-title">06</p>
+                        <p class="steps-quiz-box__item-subtitle">Ваш&nbsp;день</p>
+                    </div>
+                    <div class="steps-quiz-box__item">
+                        <div class="steps-quiz-box__item-img"><img src="./images/steps/7.png" alt=""></div>
+                        <p class="steps-quiz-box__item-title">07</p>
+                        <p class="steps-quiz-box__item-subtitle">Плохие привычки</p>
+                    </div>
+                    <div class="steps-quiz-box__item">
+                        <div class="steps-quiz-box__item-img"><img src="./images/steps/8.png" alt=""></div>
+                        <p class="steps-quiz-box__item-title">08</p>
+                        <p class="steps-quiz-box__item-subtitle">Параметры</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="js/index.js"></script>
+
+    <!-- swiper js -->
+  </body>
+</html>

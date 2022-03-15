@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Page</title>
+
+        <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+
+  <body>
+    
+    <main class="main">
+        <section class="auth">
+            <div class="auth-wrapper">
+                <div class="auth-formBx">
+                    <div class="auth-formBx__item">
+                        <div class="auth-formBx__logo logo"><img src="./images/logo.png" alt="">pro you</div>
+                        <h1 class="auth-formBx__title">Вход в личный кабинет</h1>
+                        <p class="auth-formBx__subtitle">Укажите почту и пароль</p>
+                        <form action="#" class="auth-form">
+                            <div class="auth-form-inputBx">
+                                <img src="./images/auth/mail.png" alt="">
+                                <input type="text" placeholder="Введите вашу почту">
+                            </div>
+                            <div class="auth-form-inputBx">
+                                <img src="./images/auth/lock.png" alt="">
+                                <input type="text" placeholder="Введите пароль">
+                            </div>
+                            <button class="auth-form__button">Войти</button>
+                            <p class="auth-form__pass" id="forgot_pass">Забыли пароль?</p>
+                        </form>
+                    </div>
+                    <div class="auth-formBx__item">
+                        <div class="auth-formBx__logo logo"><img src="./images/logo.png" alt="">pro you</div>
+                        <h1 class="auth-formBx__title">Восстановление пароля</h1>
+                        <p class="auth-formBx__subtitle">Укажите почту и мы<br> пришлем&nbsp;новый</p>
+                        <form action="#" class="auth-form">
+                            <div class="auth-form-inputBx">
+                                <img src="./images/auth/mail.png" alt="">
+                                <input type="text" class="desktop" placeholder="Введите почту, указанную при регистрации">
+                                <input type="text" class="mobile" placeholder="Введите вашу почту">
+                            </div>
+                            <button class="auth-form__button">Войти</button>
+                            <p class="auth-form__pass" id="login_help">Войти в личный кабинет</p>
+                        </form>
+                    </div>
+                </div>
+                <img class="desktop auth__img" src="./images/auth/main.png" alt="">
+                <img class="mobile" src="./images/auth/main-mobile.png" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="js/index.js"></script>
+
+    <!-- swiper js -->
+  </body>
+</html>

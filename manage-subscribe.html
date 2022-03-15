@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Page</title>
+
+        <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+
+  <body>
+    
+    
+    <main class="main">
+        <header class="header">
+                <div class="container">
+                    <div class="header-wrapper">
+                        <a href="/" class="header-logo"><img src="./images/logo.png" alt="">pro you</a>
+                    </div>
+                </div>
+            </header>
+        <section class="manager">
+            <div class="container">
+                <h1 class="manager__title">Управление подписками</h1>
+                <div class="manager-wrapper">
+                    <div class="manager-item">
+                        <h2 class="manager-item__title">Где я нахожусь в данный момент?</h2>
+                        <!-- /.manager-item__title -->
+                        <p class="manager-item__subtitle">Это страница по управлению подписками. Здесь Вы сможете отправить заявку на отмену подписки. А также мы ответим на самые распространенные вопросы</p>
+                        <!-- /.manager-item__subtitle -->
+                        <img src="./images/manage-subscribe/1.png" alt="" class="manager-item__img">
+                    </div>
+                    <!-- /.manager-item -->
+                    <div class="manager-item">
+                        <h2 class="manager-item__title">Почему без моего согласия была совершена оплата</h2>
+                        <!-- /.manager-item__title -->
+                        <p class="manager-item__subtitle">На сайте Вы оформили пробную подписку, которая продлевается автоматически на несколько дней или неделю с помощью рекуррентного платежа, с которым вы согласились при оплате.</p>
+                        <!-- /.manager-item__subtitle -->
+                        <img src="./images/manage-subscribe/2.png" alt="" class="manager-item__img">
+                    </div>
+                    <!-- /.manager-item -->
+                    <div class="manager-item">
+                        <h2 class="manager-item__title">Как это так без подтверждения по смс?</h2>
+                        <!-- /.manager-item__title -->
+                        <p class="manager-item__subtitle">Мы используем рекуррентные платежи, также известные как рекарринговые платежи или «автоплатежи» — это возможность выполнять регулярные списания денег с банковской карты покупателя или электронного кошелька без повторного ввода реквизитов карты и без участия плательщика для инициации очередного платежа. <br><br>Рекарринговые платежи используют так же такие компании как Яндекс, Google, Amazon, IVI, Netflix и многие другие</p>
+                        <!-- /.manager-item__subtitle -->
+                        <img src="./images/manage-subscribe/3.png" alt="" class="manager-item__img">
+                    </div>
+                    <!-- /.manager-item -->
+                </div>
+            </div>
+        </section>
+     
+        <section class="cancel-subscribe">
+            <div class="container">
+                <h2 class="cancel-subscribe__title">Выберите способ для отмены подписки</h2>
+                <!-- /.cancel-subscribe__title -->
+                <div class="cancel-subscribe-buttonBx">
+                    <button class="active"><img src="./images/manage-subscribe/mail.png" alt="">По почте</button>
+                    <button><img src="./images/manage-subscribe/card.png" alt="">Картой</button>
+                </div>
+                <div class="cancel-subscribe-wrapper">
+                    <div class="cancel-subscribe-formBx">
+                        <form action="#" class="cancel-subscribe-form" id="cancel-form-email">
+                            <h3 class="cancel-subscribe-form__title">Введите ваши данные</h3>
+                            <p class="cancel-subscribe-form__subtitle">Укажите почту, через которую был выполнен вход</p>
+                            <div class="cancel-subscribe-inputBx custom-input1">
+                                <input type="email" placeholder="Введите почту" required>
+                                <img src="./images/mail.png" alt="">
+                            </div>
+                            <button class="cancel-subscribe-form__button button-form orange-animate">Отписаться</button>
+                        </form>
+                        <form action="#" class="cancel-subscribe-form">
+                            <h3 class="cancel-subscribe-form__title">Введите ваши данные</h3>
+                            <p class="cancel-subscribe-form__subtitle">Укажите номер карты, по которой была произведена оплата</p>
+                            <div class="cancel-subscribe-inputBx custom-input1">
+                                <input class="input-card" type="text" placeholder="Введите номер карты" required>
+                                <img src="./images/card.png" alt="">
+                            </div>
+                            <button class="cancel-subscribe-form__button button-form orange-animate">Отписаться</button>
+                        </form>
+                    </div>
+                    <img class="cancel-subscribe-wrapper__img" src="./images/manage-subscribe/man.svg" alt="">
+                </div>
+                <!-- /.cancel-subscribe-wrapper -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.cancel-subscribe -->
+    </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="js/index.js"></script>
+
+    <!-- swiper js -->
+  </body>
+</html>
